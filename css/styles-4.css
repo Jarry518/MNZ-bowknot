@@ -1,0 +1,141 @@
+body { 
+	font: 14px Georgia, 
+	"Times New Roman", Times, serif;
+	 color:#ffffff; 
+	 background:#FFFFFF; 
+	 }
+	 
+p { /*这个是文字解释部分，删除会靠边*/
+	font-style:italic; 
+	padding:14px 40px 0 40px; 
+	}
+	
+h2 { /*标题字体*/
+	font-size:18px; 
+	font-weight:700; 
+	color:#2b2b2b;
+	margin:0px 40px 5px 40px; 
+	padding-bottom:19px; 
+	padding-top:32px; 
+	text-transform:uppercase;
+	letter-spacing:2px; 
+	border-bottom:1px solid #FFFFFF;
+	display:block;
+	}
+
+
+.container { /*图片板式*/
+	padding:0px; 
+	width:960px; 
+	position:relative;
+	margin:0 auto;
+	}
+	 
+.col1-3 { /*这是图与图之间的*/
+	width:300px; 
+	height:402px; 
+	margin:10px; 
+	float:left;
+	}
+	
+.element .col1-3 {
+	width:310px; 
+	height:402px; 
+	margin:0; 
+	float:left;
+	background:#AF9AAE;
+	}
+
+.col2-3 { 
+	width:620px; 
+	height:402px; 
+	margin:10px; 
+	float:left; 
+	}
+	
+.element .col2-3 {
+	width:640px; 
+	height:402px; 
+	margin:0; 
+	}
+	
+
+.white-right:before {
+	content:''; 
+	height:0;
+	 width:0; 
+	 border-width:12px 12px 12px 12px; 
+	 border-style:solid; 
+	 border-color:rgba(251,251,251,0) rgba(255,255,255,1) rgba(255,255,255,0) rgba(255,255,255,0); 
+	 position:absolute; 
+	 margin-top:40px; 
+	 left:616px; 
+	 }
+	 
+.white-right2:before {
+	content:''; 
+	height:0; 
+	width:0; 
+	border-width:12px 12px 12px 12px; 
+	border-style:solid; 
+	border-color:rgba(251,251,251,0) rgba(255,255,255,1) rgba(255,255,255,0) rgba(255,255,255,0); 
+	position:absolute; 
+	margin-top:40px; 
+	left:296px; 
+	}
+	
+.white-bottom:before {
+	content:''; 
+	height:0; 
+	width:0; 
+	border-width:12px 12px 12px 12px; 
+	border-style:solid; 
+	border-color:rgba(251,251,251,0) rgba(255,255,255,0) rgba(255,255,255,1) rgba(255,255,255,0); 
+	position:absolute; 
+	top:-24px; margin-left:40px; 
+	}
+
+.white-bottom {
+	background:#AF9AAE; 
+	position:relative; 
+	height:246px; 
+	}
+
+
+.images .title, .images .subtitle { /*图片解释*/
+	z-index:10; 
+	position:absolute; 
+	top:38px; 
+	left:40px; 
+	width:auto; 
+	font-weight:600; 
+	}
+	
+.images .subtitle { 
+	top: 60px; 
+	font-weight: 400; 
+	}
+	
+.title-wrap, .subtitle-wrap { 
+	overflow: hidden; 
+	position: relative; 
+	}
+	
+.title-wrap h3, .subtitle-wrap p { 
+	overflow: hidden; 
+	white-space: nowrap; 
+	line-height:32px; 
+	text-transform:uppercase; 
+	font-family:'Open Sans', Arial, Helvetica, sans-serif; 
+	color:#2b2b2b; 
+	padding:0px; 
+	}
+	
+.title-wrap h3 span, .subtitle-wrap p span {/*图片解释的白条*/ 
+	padding:5px 8px 6px 8px;
+	 background:#fff; 
+	 -webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.05); 
+	 -moz-box-shadow:0 1px 0 rgba(0, 0, 0, 0.05) ; 
+	 box-shadow:0 1px 0 rgba(0, 0, 0, 0.05); 
+	 font-style:normal; 
+	 }
